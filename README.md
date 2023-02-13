@@ -14,6 +14,7 @@ You can also able to see some images of the breed.<br>
 Hosted Here : https://doggy-search-by-soudip-das.netlify.app/
 # Images of the UI
 ![1](https://user-images.githubusercontent.com/91823106/218513304-38abdb3d-af6d-43b8-8f6b-5ecbb2eefa21.jpeg)
+# Only spelling needed to be correct
 ![2](https://user-images.githubusercontent.com/91823106/218513866-01f27070-f62c-4de5-9ac0-87c254575ff9.jpeg)
 
 # Responsiveness
