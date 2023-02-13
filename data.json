@@ -1,0 +1,497 @@
+[
+  {
+    "breed": "hound",
+    "char": "aloof, clownish, dignified, independent, happy",
+    "weight": "23 - 27 kgs",
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "affenpinscher",
+    "char": "stubborn, curious, playful, adventurous, active, fun-loving",
+    "weight": "3 - 6 kgs",
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "african",
+    "char": "wild, hardworrjng, dutiful",
+    "weight": "20 - 30 kgs",
+    "life": "11 years"
+  },
+  {
+    "breed": "airedale",
+    "char": "outgoing, friendly, alert, confident, intelligent, courageous",
+    "weight": "18 - 29 kgs",
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "akita",
+    "char": "docile, alert, responsive, dignified, composed, friendly, receptive, faithful, courageous",
+    "weight": "29 - 52 kgs",
+
+    "life": "10 - 14 years"
+  },
+  {
+    "breed": "australian/shepherd",
+
+    "char": "good-natured, affectionate, intelligent, active, protective",
+    "weight": "16 - 29 kgs",
+
+    "life": "12 - 16 years"
+  },
+  {
+    "breed": "basenji",
+
+    "char": "affectionate, energetic, alert, curious, playful, intelligent",
+    "weight": "10 - 11 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "beagle",
+
+    "char": "amiable, even tempered, excitable, determined, gentle, intelligent",
+    "weight": "9 - 16 kgs",
+
+    "life": "13 - 16 years"
+  },
+  {
+    "breed": "bluetick",
+
+    "char": "friendly, intelligent, active",
+    "weight": "20 - 36 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "bouvier",
+
+    "char": "protective, loyal, gentle, intelligent, familial, rational",
+    "weight": "32 - 50 kgs",
+    "life": "10 - 15 years"
+  },
+  {
+    "breed": "boxer",
+
+    "char": "devoted, fearless, friendly, cheerful, energetic, loyal, playful, confident, intelligent, bright, brave, calm",
+    "weight": "23 - 32 kgs",
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "briard",
+
+    "char": "fearless, loyal, obedient, intelligent, faithful, protective",
+    "weight": "32 - 41 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "bullterrier/staffordshire",
+
+    "char": "trainable, protective, sweet-tempered, keen, active",
+    "weight": "23 - 32 kgs",
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "cattledog/australian",
+
+    "char": "cautious, energetic, loyal, obedient, protective, brave",
+    "weight": "20 - 28 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "chow",
+
+    "char": "aloof, loyal, independent, quiet",
+    "weight": "18 - 32 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "clumber",
+
+    "char": "affectionate, loyal, dignified, gentle, calm, great-hearted",
+    "weight": "25 - 39 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "cotondetulear",
+
+    "char": "affectionate, lively, playful, intelligent, trainable, vocal",
+    "weight": "4 - 7 kgs",
+
+    "life": "13 - 16 years"
+  },
+  {
+    "breed": "dalmatian",
+
+    "char": "outgoing, friendly, energetic, playful, sensitive, intelligent, active",
+    "weight": "23 - 25 kgs",
+
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "dane/great",
+
+    "char": "friendly, devoted, reserved, gentle, confident, loving",
+    "weight": "50 - 86 kgs",
+
+    "life": "7 - 10 years"
+  },
+  {
+    "breed": "deerhound/scottish",
+
+    "char": "docile, friendly, dignified, gentle",
+    "weight": "32 - 59 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "doberman",
+
+    "char": "fearless, energetic, alert, loyal, obedient, confident, intelligent",
+    "weight": "30 - 40 kgs",
+
+    "life": "10 years"
+  },
+  {
+    "breed": "finnish/lapphund",
+
+    "char": "friendly, keen, faithful, calm, courageous",
+    "weight": "15 - 24 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "frise/bichon",
+
+    "char": "feisty, affectionate, cheerful, playful, gentle, sensitive",
+    "weight": "5 - 8 kgs",
+
+    "life": "15 years"
+  },
+  {
+    "breed": "germanshepherd",
+
+    "char": "alert, loyal, obedient, curious, confident, intelligent, watchful, courageous",
+    "weight": "23 - 41 kgs",
+
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "greyhound",
+
+    "char": "mischievous, affectionate, agile, athletic, companionable, intelligent",
+    "weight": "3 - 7 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "havanese",
+
+    "char": "affectionate, responsive, playful, companionable, gentle, intelligent",
+    "weight": "3 - 6 kgs",
+
+    "life": "14 - 15 years"
+  },
+  {
+    "breed": "hound/afghan",
+
+    "char": "aloof, clownish, dignified, independent, happy",
+    "weight": "23 - 27 kgs",
+
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "hound/basset",
+
+    "char": "tenacious, friendly, affectionate, devoted, sweet-tempered, gentle",
+    "weight": "23 - 29 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "hound/blood",
+
+    "char": "stubborn, affectionate, gentle, even tempered",
+    "weight": "36 - 50 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "husky",
+
+    "char": "outgoing, Friendly, Alert, Gentle, Intelligent",
+    "weight": "16 - 27 kgs",
+
+    "life": "12 years"
+  },
+  {
+    "breed": "scottish Deerhound",
+
+    "char": "docile, Friendly, Dignified, Gentle",
+    "weight": "32 - 59 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "keeshond",
+
+    "char": "agile, Obedient, Playful, Quick, Sturdy, Bright",
+    "weight": "16 - 20 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "komondor",
+
+    "char": "steady, Fearless, Affectionate, Independent, Gentle, Calm",
+    "weight": "36 - 45 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "kuvasz",
+
+    "char": "clownish, Loyal, Patient, Independent, Intelligent, Protective",
+    "weight": "32 - 52 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "retriever",
+
+    "char": "kind, Outgoing, Agile, Gentle, Intelligent, Trusting, Even Tempered",
+    "weight": "25 - 36 kgs",
+
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "leonberg",
+
+    "char": "obedient, Fearless, Loyal, Companionable, Adaptable, Loving",
+    "weight": "54 - 77 kgs",
+
+    "life": "6 - 8 years"
+  },
+  {
+    "breed": "lhasa",
+
+    "char": "steady, Fearless, Friendly, Devoted, Assertive, Spirited, Energetic, Lively, Alert, Obedient, Playful, Intelligent",
+    "weight": "5 - 8 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "newfoundland",
+
+    "char": "sweet-Tempered, Gentle, Trainable",
+    "weight": "45 - 68 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "papillon",
+
+    "char": "hardy, Friendly, Energetic, Alert, Intelligent, Happy",
+    "weight": "1 - 5 kgs",
+
+    "life": "13 - 17 years"
+  },
+  {
+    "breed": "pekingese",
+
+    "char": "opinionated, Good-natured, Stubborn, Affectionate, Aggressive, Intelligent",
+    "weight": "6 kgs",
+
+    "life": "14 - 18 years"
+  },
+  {
+    "breed": "pembroke",
+
+    "char": "tenacious, Outgoing, Friendly, Bold, Playful, Protective",
+    "weight": "11 - 14 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "pitbull",
+    "char": "friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+    "weight": "27 - 54 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "pointer/german",
+
+    "char": "boisterous, Bold, Affectionate, Intelligent, Cooperative, Trainable",
+    "weight": "20 - 32 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "pomeranian",
+
+    "char": "extroverted, Friendly, Sociable, Playful, Intelligent, Active",
+    "weight": "1 - 3 kgs",
+
+    "life": "15 years"
+  },
+  {
+    "breed": "poodle/miniature",
+
+    "char": "Unknown",
+    "weight": "7 - 8 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "pug",
+
+    "char": "docile, Clever, Charming, Stubborn, Sociable, Playful, Quiet, Attentive",
+    "weight": "6 - 8 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "retriever/chesapeake",
+
+    "char": "affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+    "weight": "25 - 36 kgs",
+
+    "life": "10 - 13 years"
+  },
+  {
+    "breed": "retriever/golden",
+    "char": "intelligent, Kind, Reliable, Friendly, Trustworthy, Confident",
+    "weight": "25 - 34 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "ridgeback/rhodesian",
+
+    "char": "strong Willed, Mischievous, Loyal, Dignified, Sensitive, Intelligent",
+    "weight": "34 - 36 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "rottweiler",
+
+    "char": "steady, Good-natured, Fearless, Devoted, Alert, Obedient, Confident, Self-assured, Calm, Courageous",
+    "weight": "34 - 50 kgs",
+
+    "life": "8 - 10 years"
+  },
+  {
+    "breed": "saluki",
+
+    "char": "aloof, Reserved, Intelligent, Quiet",
+    "weight": "16 - 29 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "samoyed",
+
+    "char": "stubborn, Friendly, Sociable, Lively, Alert, Playful",
+    "weight": "23 - 27 kgs",
+
+    "life": "12 - 14 years"
+  },
+  {
+    "breed": "schipperke",
+
+    "char": "fearless, Agile, Curious, Independent, Confident, Faithful",
+    "weight": "5 - 7 kgs",
+
+    "life": "13 - 15 years"
+  },
+  {
+    "breed": "shiba",
+
+    "char": "charming, Fearless, Keen, Alert, Confident, Faithful",
+    "weight": "8 - 10 kgs",
+
+    "life": "12 - 16 years"
+  },
+  {
+    "breed": "shihtzu",
+
+    "char": "clever, Spunky, Outgoing, Friendly, Affectionate, Lively, Alert, Loyal, Independent, Playful, Gentle, Intelligent, Happy, Active, Courageous",
+    "weight": "4 - 7 kgs",
+
+    "life": "10 - 18 years"
+  },
+  {
+    "breed": "spitz/japanese",
+
+    "char": "affectionate, Obedient, Playful, Companionable, Intelligent, Proud",
+    "weight": "7 - 9 kgs",
+
+    "life": "10 - 16 years"
+  },
+  {
+    "breed": "terrier/american",
+
+    "char": "friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+    "weight": "27 - 54 kgs",
+
+    "life": "10 - 12 years"
+  },
+  {
+    "breed": "terrier/tibetan",
+    "char": "affectionate, Energetic, Amiable, Reserved, Gentle, Sensitive",
+    "weight": "9 - 11 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "terrier/toy",
+    "char": "friendly, Spirited, Alert, Loyal, Playful, Intelligent",
+    "weight": "2 - 4 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "vizsla",
+
+    "char": "affectionate, Energetic, Loyal, Gentle, Quiet",
+    "weight": "23 - 29 kgs",
+
+    "life": "10 - 14 years"
+  },
+  {
+    "breed": "waterdog/spanish",
+    "char": "trainable, Diligent, Affectionate, Loyal, Athletic, Intelligent",
+    "weight": "14 - 23 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "weimaraner",
+
+    "char": "steady, Aloof, Stubborn, Energetic, Alert, Intelligent, Powerful, Fast",
+    "weight": "25 - 41 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "whippet",
+
+    "char": "friendly, Affectionate, Lively, Gentle, Intelligent, Quiet",
+    "weight": "11 - 16 kgs",
+
+    "life": "12 - 15 years"
+  },
+  {
+    "breed": "wolfhound/irish",
+
+    "char": "sweet-Tempered, Loyal, Dignified, Patient, Thoughtful, Generous",
+    "weight": "48 - 82 kgs",
+
+    "life": "6 - 8 years"
+  }
+]
