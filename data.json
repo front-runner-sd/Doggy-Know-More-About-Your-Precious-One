@@ -1,5 +1,11 @@
 [
   {
+    "breed": "labrador",
+    "char": "friendly, outgoing, high-spirited, gentleness, tolerance, and intelligence",
+    "weight": "55 - 62 kgs",
+    "life": "11 - 13 years"
+  },
+  {
     "breed": "hound",
     "char": "aloof, clownish, dignified, independent, happy",
     "weight": "23 - 27 kgs",
@@ -433,6 +439,14 @@
 
     "life": "10 - 16 years"
   },
+  {
+    "breed": "spitz",
+
+    "char": "affectionate, Obedient, Playful, Companionable, Intelligent, Proud",
+    "weight": "7 - 9 kgs",
+
+    "life": "10 - 16 years"
+  },  
   {
     "breed": "terrier/american",
 

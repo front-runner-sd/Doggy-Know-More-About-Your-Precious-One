@@ -1,3 +1,12 @@
+document.addEventListener("keyup", (event)=> {
+  if (event.code === 'Enter') {
+     Search();
+  }
+});
+
+capitalizeFirstLetter = (string)=>{
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
 async function Search() {
   try {
     const des = document.getElementById("des");
@@ -9,6 +18,7 @@ async function Search() {
 
     const processed_data = raw_data.toLowerCase().trim();
     const breed = processed_data.replace(/ /g, "/");
+    const breedCap = capitalizeFirstLetter(breed);
 
     const res = await superagent.get(
       `https://dog.ceo/api/breed/${breed}/images/random/3`
@@ -44,7 +54,7 @@ async function Search() {
               data[2].innerText = json[ele].life;
               document.getElementsByTagName(
                 "h1"
-              )[0].innerText = `About ${processed_data}`;
+              )[0].innerText = `About ${breedCap}`;
 
               flag = 1;
               return;
@@ -56,7 +66,7 @@ async function Search() {
             data[2].innerText = `Sorry There is no data available about ${breed} species`;
             document.getElementsByTagName(
               "h1"
-            )[0].innerText = `About ${processed_data}`;
+            )[0].innerText = `About ${breedCap}`;
           }
         });
       flag = 0;
