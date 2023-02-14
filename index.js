@@ -63,5 +63,12 @@ async function Search() {
     }
   } catch (err) {
     console.log("error : ", err);
+    des.style.visibility = "hidden";
+      imgs.style.visibility = "hidden";
+      errorEle.style.visibility = "visible";
+
+      errorEle.innerText = `Sorry there is no data about ${
+        document.getElementById("input").value
+      } , Maybe there was a spelling mistake !`;
   }
 }
