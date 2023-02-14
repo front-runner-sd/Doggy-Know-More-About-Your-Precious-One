@@ -67,7 +67,7 @@ async function Search() {
       imgs.style.visibility = "hidden";
       document.getElementsByTagName("h4")[0].style.visibility = "visible";
 
-      document.getElementsByTagName("h4")[0];.innerText = `Sorry there is no data about ${
+      document.getElementsByTagName("h4")[0].innerText = `Sorry there is no data about ${
         document.getElementById("input").value
       } , Maybe there was a spelling mistake !`;
   }
