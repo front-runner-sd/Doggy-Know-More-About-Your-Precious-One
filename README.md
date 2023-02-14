@@ -1,6 +1,6 @@
 # Doggy-Know-More-About-Your-Precious-One 🐕
 <p>
-It is a fun little website that you can use to search more about your precious <strong>Doggy🐶🦺</strong> <br>
+It is a fun little website that you can use to search more about your precious <strong>Doggy🐶</strong> <br>
 Or you can use it to browse different types of dog species 🐕‍ and their details. 
 </p>
 
