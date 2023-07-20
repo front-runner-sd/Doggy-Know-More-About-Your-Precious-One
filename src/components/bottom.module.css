@@ -1,0 +1,58 @@
+h1 {
+  margin-bottom: 4rem;
+}
+
+.char{
+  word-wrap: break-word;
+}
+.resImg {
+  position: relative;
+  left: 30rem;
+  top: 10rem;
+  height: 30rem;
+  width: 30rem;
+}
+.resImg img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.resDes {
+  border-radius: 5px;
+  height: 30rem;
+  top: -20rem;
+  left: 60rem;
+  position: relative;
+  width: 50rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 767px) {
+  .resImg {
+    left: 3rem;
+    top: -25rem;
+  }
+
+  div.resDes {
+    top: 130rem;
+    height: 20rem;
+    left: 2rem;
+    position: absolute;
+    z-index: 500;
+    width: 330px;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 767px) and (max-width:1139px){
+  .resImg {
+    position: relative;
+    left: 15rem;
+  }
+  .resDes {
+    left: 45rem;
+  }
+}

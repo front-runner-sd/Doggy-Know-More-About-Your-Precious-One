@@ -1,0 +1,78 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  font-size: 10rem;
+  z-index: 5;
+  position: absolute;
+  left: 50rem;
+  top: 10rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  font-size: 2rem;
+  top: -60rem;
+  position: relative;
+}
+
+h5{
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+h6{
+  font-size: 2rem;
+  font-weight:normal;
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 5rem;
+    top: 5rem;
+    left: 10rem;
+  }
+  h3 {
+    font-size: 2rem !important;
+    padding-left: 3rem !important;
+    padding-top: 2rem !important;
+  }
+  h4 {
+    text-align: center;
+    font-size: 2rem;
+    top: -60rem;
+    position: relative;
+  }
+
+  h1 {
+    position: relative;
+    left: -3rem;
+  }
+}

@@ -1,0 +1,34 @@
+nav{
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+    color: white;
+}
+
+.bgi{
+    object-fit:fill;
+    width: 100% ;
+    top: -2rem;
+    position: relative;
+    z-index: 0;
+ }
+ 
+ .bg{
+     height: 280px;
+ }
+
+ @media screen and (max-width:767px){
+    img.bgi{
+      height: 250px;
+      width: 150%;
+      left: -70px;
+   }
+   nav{
+    height: 0;
+    padding-top: 0;
+   }
+   .bg{
+       height: 480px;
+       overflow-x: hidden;
+      overflow-y: visible;
+   }
+}

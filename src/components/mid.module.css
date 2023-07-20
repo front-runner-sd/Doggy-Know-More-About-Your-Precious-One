@@ -1,53 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-html, body {
-   height: 100%;
-   width: 100%;
-}
-h1{
-   font-size: 4rem;
-   text-align: center;
-}
-h2{
-    font-size: 10rem;
-    z-index: 5;
-    position: absolute;
-    left: 50rem;
-    top: 10rem;
-}
-nav{
-    padding-top: 2rem;
-    padding-left: 3.5rem;
-    color: white;
-}
-
-img.bgi{
-   object-fit:fill;
-   width: 100% ;
-   top: -2rem;
-   position: relative;
-   z-index: 0;
-}
-
-.bg{
-    height: 280px;
-}
-
-div.card{
+.card{
     background-color: #FFFF;
     position: relative;
     z-index: 1;
@@ -61,14 +12,14 @@ div.card{
     box-shadow: 13px 13px 21px 0px rgba(0,0,0,0.57);
 }
 
-div.card h3{
+.card h3{
     padding-left: 6rem ;
     padding-top: 3rem ;
     font-size: 3rem;
     font-weight: bolder;
 }
 
-input.input{
+.input{
     height: 45px;
     margin-top: 3rem;
     margin-left: 6rem;
@@ -80,66 +31,9 @@ input.input{
     margin-right: 3rem;
 }
 
-.resImg{
-
-  position: relative;
-  left: 30rem;
-  top: 10rem;
-  height: 30rem;
-  width: 30rem;
-}
-.resImg img{
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 5px;
-  padding: 1rem;
-}
-
-div.resDes{
-    border-radius: 5px;
-    height: 30rem;
-    top: -20rem;
-    left: 60rem;
-    position: relative;
-    width: 50rem;
-    font-size: 1.5rem;
-    padding: 1rem;
-    margin-left: 2rem;
-}
-
-
-footer{
-    background: linear-gradient(45deg,#f10067, #470f68);
-    height: 10rem;
-    font-size: 3rem;
-    font-weight: bolder;
-    color: white;
-    text-align: center;
-    padding-top: 2rem;
-    position: relative;
-    top: 45rem;
-}
-
-h4{
-  text-align: center;
-  font-size: 2rem;
-  top: -60rem;
-  position: relative;
-}
-
-h5{
-  font-size: 2.5rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
-h6{
-  font-size: 2rem;
-  font-weight:normal;
-}
 /* Search button  */
 
-.check-pushable {
+.check_pushable {
     position: relative;
     border: none;
     background: transparent;
@@ -149,7 +43,7 @@ h6{
   }
   
    /* shadow transform hobe */
-  .check-shadow { 
+  .check_shadow { 
     position: absolute;
     top: 0;
     left: 0;
@@ -165,7 +59,7 @@ h6{
       cubic-bezier(.3, .7, .4, 1);
   }
   
-  .check-edge {
+  .check_edge {
     position: absolute;
     top: 0;
     left: 0;
@@ -181,7 +75,7 @@ h6{
     );
   }
   
-  .check-front {  
+  .check_front {  
     display: block;
     position: relative;
     padding: 5px;
@@ -197,7 +91,7 @@ h6{
   }
   
   /* hover korle ute jabe button */
-  .check-pushable:hover .check-front {
+  .check_pushable:hover .check_front {
     transform: translateY(-4px);
     transition:
       transform
@@ -206,7 +100,7 @@ h6{
   }
   
   /* click korle bose jabe button */
-  .check-pushable:active .check-front { 
+  .check_pushable:active .check_front { 
     transform: translateY(-2px);
     transition: transform 34ms;
   }
@@ -220,7 +114,7 @@ h6{
   }
   
   /*hover e shadow change hbee  */
-  .check-pushable:hover .check-shadow {
+  .check_pushable:hover .check_shadow {
     transform: translateY(4px);
     transition:
       transform
@@ -228,40 +122,21 @@ h6{
       cubic-bezier(.3, .7, .4, 1.5);
   }
   
-  .check-pushable:active .check-shadow {
+  .check_pushable:active .check_shadow {
     transform: translateY(1px);
     transition: transform 34ms;
   }
-  
-
-
   @media screen and (max-width:767px){
-    img.bgi{
-      height: 250px;
-      width: 150%;
-      left: -70px;
-   }
-   nav{
-    height: 0;
-    padding-top: 0;
-   }
-   .bg{
-       height: 480px;
-       overflow-x: hidden;
-      overflow-y: visible;
-   }
-   
-  h2{
-     font-size: 5rem;
-     top: 5rem;
-     left: 10rem;
-  }
-  
-  div.card{
+      
+  .card{
     width: 260px;
     height: 180px;
     left: 5rem;
     top: -33rem;
+  }
+  button{
+    top: 1.5rem;
+    left: 8.5rem;
   }
   h3{
     font-size: 2rem !important;
@@ -274,52 +149,32 @@ h6{
     margin-left: 2rem;
     width: 220px;
   }
-  
-  .resImg{
-    left: 3rem;
-    top: -25rem;
-  
+  .check-pushable {
+    margin-top: 1.5rem;
+    margin-left: 8.5rem;
   }
   
-  div.resDes{
-    top: 130rem;
-    height: 20rem;
-    left: 2rem;
-    position: absolute;
-    z-index: 500;
-    width: 330px;
-    font-size: 1.5rem;
-    padding: 1rem;
+    span.text{
+        font-size: 1.5rem; 
+    }
+  }  
+
+  @media screen and (min-width: 767px) and (max-width:1139px) {
+    .card{
+      background-color: #FFFF;
+      width: 700px;
+      height: 200px;
+      left: 20rem;
   }
-
-
-  footer{
-    height: 10rem;
+  .input{
+    height: 45px;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid ;
     font-size: 2rem;
-    padding-top: 3.5rem;
-    top: 95rem;
-  }
-  
-  h4{
-  text-align: center;
-  font-size: 2rem;
-  top: -60rem;
-  position: relative;
-  }
-
-  h1{
-  position: relative;
-  left: -3rem;
+    padding-left: 2rem;
+    margin-right: 3rem;
 }
-.check-pushable {
-  margin-top: 1.5rem;
-  margin-left: 8.5rem;
-}
-
-  span.text{
-      font-size: 1.5rem; 
   }
-
-  }
-  
-  
