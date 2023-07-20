@@ -18,10 +18,8 @@ const mid=(props)=>{
         try{
             const res = await axios.get(`https://dog.ceo/api/breed/${breed}/images/random/3`);
             const res2 = await axios.get(`./data.json`);
-            // console.log(res2.data[0].breed);
             props.sendArrToParent(res.data.message);
-            for(var ele in res2.data){  // res2 ekta obj, ar tar data hlo ekta method jar value hlo ekta array of objects . ami json er modhhe dia travarse korbo ( NOte : console.log (ele ) korle number pabi mane json ta array of objects, to array tay iterate korbe
-            //   console.log(res2.data[ele].breed);   
+            for(var ele in res2.data){   
                if(res2.data[ele].breed === breed){ 
                 props.sendArrToParent2(res2.data[ele]);
                 break;
