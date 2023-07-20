@@ -42,7 +42,6 @@
     touch-action: manipulation;
   }
   
-   /* shadow transform hobe */
   .check_shadow { 
     position: absolute;
     top: 0;
@@ -90,7 +89,7 @@
       cubic-bezier(.3, .7, .4, 1);
   }
   
-  /* hover korle ute jabe button */
+
   .check_pushable:hover .check_front {
     transform: translateY(-4px);
     transition:
@@ -99,7 +98,7 @@
       cubic-bezier(.3, .7, .4, 1.5);
   }
   
-  /* click korle bose jabe button */
+
   .check_pushable:active .check_front { 
     transform: translateY(-2px);
     transition: transform 34ms;
@@ -113,7 +112,7 @@
         padding-bottom: 1rem;
   }
   
-  /*hover e shadow change hbee  */
+
   .check_pushable:hover .check_shadow {
     transform: translateY(4px);
     transition:

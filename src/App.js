@@ -2,7 +2,7 @@ import Top from "./components/top";
 import Mid from "./components/mid";
 import Bottom from "./components/bottom";
 import Footer from "./components/footer"
-import { Helmet,HelmetProvider } from 'react-helmet-async'; // eta lagbe amar tab er upr title show korate, Dek ei jnno niche helmet use korechi
+import { Helmet,HelmetProvider } from 'react-helmet-async'; 
 import { useState } from "react";
 
 const TITLE = 'Doggy-know more about your pricious one';
@@ -24,7 +24,6 @@ function App() {
   const updatedImgArrHandler =(childDataImgs)=> {
         imgArr=childDataImgs;
         setMsg(imgArr);
-        // console.log(imgArr);
   }
   const dataHandler = (childData)=>{
     setMsg2(childData);
